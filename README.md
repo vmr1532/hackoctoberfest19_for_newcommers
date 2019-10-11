@@ -37,8 +37,7 @@ This time you need 4 PULL REQUESTS to complete the challenge!
 ***
 
 You can also earn so many other swags from different oranisations liks Hasure, Adobe,Twello quest, Devpost etc by contributing to their PR in hackoctober fest.
-#### For more details visit:- 
-[swagslist](https://hackoctoberfestswaglist.com)
+
 
 ### For getting more details on other swags visit:-
 [devswag](https://devswag.io/)
