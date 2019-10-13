@@ -10,7 +10,7 @@
 <p> Name of Developers of some of the famous programming languages </p>
 </br>
 <p> Here You Go ... </p>
-<table style="width:100%">
+<table border="5">
   <tr>
     <th>Language Name</th>
     <th>Developer</th>
