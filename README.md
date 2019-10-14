@@ -20,7 +20,7 @@
 Hacktoberfest is the easiest way to get into open source and win a T-Shirt and awesome stickers! Hacktoberfest is a month long festival of open source code presented by [Digital Ocean](https:// www.digitalocean.com/) and [DEV](https://www.dev.to/) this year in 2019.
 
 #### For more details vist:-
-[hackoctober](https://hacktoberfest.digitalocean.com/)
+[hackoctober] (https://hacktoberfest.digitalocean.com/)
 
 
 ***
