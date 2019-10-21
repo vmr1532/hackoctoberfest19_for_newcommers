@@ -17,7 +17,7 @@
 ***
 
 ##  What's Hacktoberfest 2019?
-Hacktoberfest is the easiest way to get into open source and win a T-Shirt and awesome stickers! Hacktoberfest is a month long festival of open source code presented by [Digital Ocean](https:// www.digitalocean.com/) and [DEV](https://www.dev.to/) this year in 2019.
+Hacktoberfest is the easiest way to get into open source and win a T-Shirt and awesome stickers! Hacktoberfest is a month long festival of open source code presented by [Digital Ocean](https://www.digitalocean.com/) and [DEV](https://www.dev.to/) this year in 2019.
 
 #### For more details vist:-
 [hackoctober](https://hacktoberfest.digitalocean.com/)
@@ -42,6 +42,10 @@ You can also earn so many other swags from different oranisations liks Hasure, A
 
 ### For getting more details on other swags visit:-
 [devswag](https://devswag.io/)
+
+<a href="https://www.ortussolutions.com/blog/want-a-free-limited-edition-t-shirt-support-open-source-you-still-have-time-hacktoberfest2018.pdf" >
+  <button class="btn"><i class="fa fa-download"></i> Download</button>
+</a>
 
 
 
