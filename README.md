@@ -43,6 +43,8 @@ You can also earn so many other swags from different oranisations liks Hasure, A
 ### For getting more details on other swags visit:-
 [devswag](https://devswag.io/)
 
+### Refer this Document for getting more info 
+
 <a href="https://www.ortussolutions.com/blog/want-a-free-limited-edition-t-shirt-support-open-source-you-still-have-time-hacktoberfest2018.pdf" >
   <button class="btn"><i class="fa fa-download"></i> Download</button>
 </a>
