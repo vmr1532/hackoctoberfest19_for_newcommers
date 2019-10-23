@@ -30,13 +30,13 @@ Here are Few Simple steps to contribute to this project:
 * Fork this repo
 * Add few changes to html file in the `CONTRIBUTORS` directory above 
 * Open a pull request to fillerInk/Hacktoberfest_for_beginners.
-* Congrats you just created your first pull request! </br>
+* Congrats, you just created your first pull request! </br>
 
 This time you need 4 PULL REQUESTS to complete the challenge!
 
 ***
 
-You can also earn so many other swags from different oranisations liks Hasure, Adobe,Twello quest, Devpost etc by contributing to their PR in hackoctober fest.
+You can also earn so many other swags from different organisations liks Hasure, Adobe,Twello quest, Devpost etc by contributing to their PR in hackoctober fest.
 #### For more details visit:- 
 [swagslist](https://hackoctoberfestswaglist.com)
 
