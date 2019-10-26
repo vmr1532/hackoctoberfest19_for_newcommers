@@ -28,8 +28,8 @@ Hacktoberfest is the easiest way to get into open source and win a T-Shirt and a
 Here are Few Simple steps to contribute to this project:
 
 * Fork this repo
-* Add few changes to html file in the `CONTRIBUTORS` directory above 
-* Open a pull request to fillerInk/Hacktoberfest_for_beginners.
+* Add a new html file in the `CONTRIBUTORS` directory above 
+* Open a pull request to vmr1532/Hacktoberfest_for_beginners.
 * Congrats you just created your first pull request! </br>
 
 This time you need 4 PULL REQUESTS to complete the challenge!
