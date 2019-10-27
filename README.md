@@ -28,8 +28,9 @@ Hacktoberfest is the easiest way to get into open source and win a T-Shirt and a
 Here are Few Simple steps to contribute to this project:
 
 * Fork this repo
-* Add few changes to html file in the `CONTRIBUTORS` directory above 
-* Open a pull request to fillerInk/Hacktoberfest_for_beginners.
+* Add few changes to beginner and beginner1 html files in the `CONTRIBUTORS` directory above 
+* create new Html file as yourname.html in that directory as the the modified version of the above html files.
+* Open a pull request to vmr1532/Hacktoberfest_for_beginners.
 * Congrats, you just created your first pull request! </br>
 
 This time you need 4 PULL REQUESTS to complete the challenge!
@@ -37,8 +38,7 @@ This time you need 4 PULL REQUESTS to complete the challenge!
 ***
 
 You can also earn so many other swags from different organisations liks Hasure, Adobe,Twello quest, Devpost etc by contributing to their PR in hackoctober fest.
-#### For more details visit:- 
-[swagslist](https://hackoctoberfestswaglist.com)
+
 
 ### For getting more details on other swags visit:-
 [devswag](https://devswag.io/)
