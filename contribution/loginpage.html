@@ -1,0 +1,74 @@
+
+{% extends 'contribution/base.html' %}
+{% load static %}
+
+{% block title %} Login {% endblock %}
+{% load static %}
+{% block body %}
+
+<div class="container">
+    <div id="formdiv">
+        <h3>LOGIN HERE</h3>
+          <form method='POST' id="login" >
+          {% csrf_token %}
+               <div class="g1">
+                   <label for="ea">Email Address:</label><br>
+                   <input class="in1" type="email" id="ea" name="username" action="" method="post"><br>
+               </div>
+                <div  class="g2">
+                   <label for="pass">Password:</label><br>
+                   <input class="in2" type="password" id="pass" name="password" action="" method="post"><br>
+                </div>
+                <br>
+                <input type="submit" value="Log In" class="bt" >
+        </form>
+    </div>
+</div>
+ {% endblock %}
+
+
+ {% block css %}
+ .navbar {
+   background-color: DarkSlateGray;
+ }
+
+a{
+    width:300px;
+    height:100px;
+    background-color:transparent;
+    font-size: 20px;
+}
+a:hover{
+    color:lightsteelblue;
+}
+body{
+    background-color:#2c2c2c;
+}
+span{
+    margin-right: 30px;
+    margin-left:40px;
+<!-- }
+.bt{
+    margin-left:120px;
+    width:100px;
+}
+.bt:hover{
+    font-style: oblique;
+}
+a{
+ align: center;
+}
+.container{
+    margin-top:200px;
+   width: max-content;
+   color:#00d1ff;
+}
+h5{
+    font-style: normal;
+    text-align: center;
+}
+.in1,.in2{
+    width: 350px;
+    margin-bottom:5px;
+}
+{% endblock %}
