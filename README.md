@@ -31,7 +31,8 @@ Here are Few Simple steps to contribute to this project:
 * Add few changes to beginner and beginner1 html files in the `CONTRIBUTORS` directory above 
 * create new Html file as yourname.html in that directory as the the modified version of the above html files.
 * Open a pull request to vmr1532/Hacktoberfest_for_beginners.
-* Congrats, you just created your first pull request! </br>
+* Congrats, you just created your first pull request! 
+* After some days,your repo will be checked .</br>
 
 This time you need 4 PULL REQUESTS to complete the challenge!
 
