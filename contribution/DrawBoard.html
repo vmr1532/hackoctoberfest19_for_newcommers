@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day10</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            overflow: hidden;
+            height: 100vh;
+            width: 100%;
+        }
+
+        .top-bar {
+            width: 80%;
+            height: 40px;
+            padding: 4px 10px 2px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-weight: bolder;
+            font-family: Helvetica;
+            font-size: 1.5rem;
+        }
+
+        .btn {
+            cursor: pointer;
+            margin: 0 5px 0 5px;
+            outline: none;
+            padding: 2px;
+            font-size: large;
+            border: none;
+            background: transparent;
+            box-shadow: 1px 1px 0 #000;
+        }
+
+        .canvas {
+            border-top: 2px solid #000;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="logo">DRAW BOARD</div>
+        <div class="tools">
+            <input type="range" min=1 max=100 value=1>
+            <input type="color" class="color">
+            <button class="btn">Clear</button>
+        </div>
+    </div>
+    <div class="canvas">
+        <canvas></canvas>
+    </div>
+    <script>
+        const canvas = document.querySelector("canvas");
+        const inputRange = document.querySelector('input[type="range"]');
+        const inputColor = document.querySelector('input[type="color"]');
+        const btn = document.querySelector(".btn");
+        canvas.width = innerWidth;
+        canvas.height = innerHeight;
+        var color = inputColor.value;
+        var lineWidth = inputRange.value;
+        var c = canvas.getContext("2d");
+        let prevX, prevY;
+        let isDrawing = false;
+        function draw(e) {
+            if (!isDrawing) return;
+            let x = e.offsetX;
+            let y = e.offsetY;
+            c.beginPath();
+            c.moveTo(prevX, prevY);
+            c.lineTo(x, y);
+            c.strokeStyle = color;
+            c.lineWidth = lineWidth;
+            c.lineCap = "round";
+            c.stroke();
+            prevX = x;
+            prevY = y;
+        }
+
+        canvas.addEventListener("mousedown", (e) => {
+            isDrawing = true;
+            prevX = e.offsetX;
+            prevY = e.offsetY;
+            canvas.addEventListener("mousemove", draw);
+        });
+        canvas.addEventListener("mouseup", () => isDrawing = false);
+        // canvas.addEventListener("mouseout", () => isDrawing = false);
+        btn.addEventListener("click", () => {
+            c.clearRect(0, 0, innerWidth, innerHeight);
+        });
+        inputColor.addEventListener("change", () => color = inputColor.value);
+        inputRange.addEventListener("change", () => lineWidth = inputRange.value);
+        window.addEventListener("resize", () => {
+            canvas.width = innerWidth;
+            canvas.height = innerHeight;
+        });
+    </script>
+</body>
+
+</html>
