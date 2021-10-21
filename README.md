@@ -27,7 +27,7 @@ Hacktoberfest is the easiest way to get into open source and win a T-Shirt and a
 ## How to contribute to this project
 Here are Few Simple steps to contribute to this project:
 
-* Fork this repo
+* Fork this repository
 * Add few changes to beginner and beginner1 html files in the `CONTRIBUTORS` directory above 
 * create new Html file as yourname.html in that directory as the the modified version of the above html files.
 * Open a pull request to vmr1532/Hacktoberfest_for_beginners.
